@@ -28,3 +28,7 @@ Python, scikit-learn, MLflow, Google Colab
 - Text cleaning: HTML removal, lowercase, punctuation removal
 - Stopword filtering (custom list)
 - BoW and TF-IDF feature extraction (max 5000 features)
+## Hyperparameter Search
+- C values tested: 0.01, 0.1, 0.5, 1.0, 5.0, 10.0, 50.0
+- 5-fold cross validation: 100% accuracy
+- MLflow: 11 runs logged
